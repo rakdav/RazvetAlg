@@ -60,7 +60,7 @@ namespace RazvetAlg
             {
                 Console.Write("Введите x1:");
                 double x = double.Parse(Console.ReadLine());
-                Console.Write("Введите y1:");
+                Console.Write("Введите y1:");//
                 double y = double.Parse(Console.ReadLine());
                 if(y>=x&&y>=-x&&y<=1&&y>=0) Console.WriteLine("Попадает");
                 else Console.WriteLine("Не попадет");
